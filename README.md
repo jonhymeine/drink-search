@@ -9,6 +9,11 @@ This project's objective is to improve the knowledge of CSS, Javascript and API 
 The main goal is the implementation of a web page that consumes the [TheCocktailDB](https://www.thecocktaildb.com/)'s public API that saves drinks information.
 Then, the idea is to build a list of drinks that can be clicked to access their details, ingredients and method of preparation. It's also possible to search drinks in the search bar to find the desired drink.
 
+### Web Page
+
+You can access the web page by this link:
+<https://jonhymeine.github.io/drink-search/>
+
 ### Installation and Running
 
 To install, you can download or clone this repository with
