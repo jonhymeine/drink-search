@@ -1,0 +1,61 @@
+#selectedDrink {
+    width: 100%;
+    height: 24rem;
+    display: flex;
+    background-color: var(--dark-gray);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+#drinkImage {
+    height: 100%;
+    object-fit: cover;
+}
+
+#drinkContainer {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding: 1rem;
+}
+
+#drinkInfo {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+#drinkInfo > div {
+    width: 50%;
+}
+
+#drinkDetailsBox {
+    margin-bottom: 1rem;
+}
+
+#drinkDetailsBox > h2,
+#drinkIngredientsBox > h2,
+#drinkInstructionsBox {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 1200px) {
+    #drinkInfo {
+        flex-direction: column;
+    }
+    #drinkInfo > div {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    #selectedDrink {
+        height: auto;
+        flex-direction: column;
+    }
+    #drinkImage {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+    }
+}
